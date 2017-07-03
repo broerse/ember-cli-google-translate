@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<p>{{input value=input }}</p>
+<p><button {{action 'submit'}}>Translate</button></p>
+
+<hr>
+
+<p>Text: {{text}}</p>
+<p>didYouMean: {{didYouMean}}</p>
 
 {{outlet}}
